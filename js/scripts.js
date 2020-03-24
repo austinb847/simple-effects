@@ -11,4 +11,7 @@ $(document).ready(function() {
     $("#guitar").fadeToggle();
     
   });
+  $("#slide-image .clickable").click(function(){
+    $("#guitar").slideToggle();
+  })
 });
