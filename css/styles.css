@@ -10,3 +10,7 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+#show-image {
+  display: none;
+}
