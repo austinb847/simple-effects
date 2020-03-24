@@ -7,4 +7,8 @@ $(document).ready(function() {
     $("#show-image").toggle();
     $("#hide-image").toggle();
   });
+  $("#fade-image .clickable").click(function(){
+    $("#guitar").fadeToggle();
+    
+  });
 });
